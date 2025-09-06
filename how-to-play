@@ -5,7 +5,7 @@ This game of Yahtzee merges together elements of chance and strategy in order to
 Roll table 
 Roll number 1 out of 3
 dice num:   1  2  3  4  5
-dice roll:   [3, 1, 5, 4, 1]
+dice roll: [3, 1, 5, 4, 1]
 dice lock: [0, 0, 0, 0, 0]
 
 In this step, you have the option to lock any dice, meaning they won’t be rolled in the next roll.
@@ -16,7 +16,7 @@ If you do so, the dice with a value of 5 will not change.
 Just like Boolean, in dice lock, false = 0 and true = 1.
 However, when the game mechanic ‘non-unlockable dice amount’ is adjusted, a dice lock value may equal 2. This means that throughout the available rolls, the dice cannot be unlocked.
 Score table
-ID  |  Points  |Set| Name
+ID | Points | Set | Name
 01 | 000002 |  0  | Ones
 02 | 000000 |  0  | Twos
 03 | 000003 |  0  | Threes
@@ -78,7 +78,7 @@ Yahtzee – ID 11:
 Example roll: [4, 4, 4, 4, 4]
 If a roll contains only one number, the available points will be 15 times the value of that number.
 Bonus System – IDs 12 and 13
-ID | Points   | Set | Name
+ID | Points | Set | Name
 12 | 000000 |  2  | Dice bonus!
 If a score set value is 2, that means it is a bonus obtained by completing a collection of score types.
 Dice bonus: an extra bonus of 50 points is awarded if all dice score types (ones to sixes) earn at least points (All the scores only need to not equal 0).
